@@ -1,0 +1,26 @@
+<div class="main-card-container">
+    <div *ngFor="let row of cardRows" class="card-rows">
+        <mat-card *ngFor="let cardDataItem of row">
+            <mat-card-content>
+                <span class="content-container">
+                    <div class="card-body">
+                        <span class="card-title">{{cardDataItem.title}}</span>
+                        <span class="card-amount">{{cardDataItem.amount}}</span>
+                    </div>
+                    <div class="spacer"></div>
+                    <mat-icon>
+                        check_circle
+                    </mat-icon>
+                </span>
+            </mat-card-content>
+            <mat-card-footer>
+                <span [ngClass]="cardDataItem.increment ? 'success' : 'failure'">
+                    <mat-icon>
+                        {{cardDataItem.increment ? 'arrow_upward' : 'arrow_downward'}}
+                    </mat-icon> {{cardDataItem.incAmount}}%
+                </span>
+                {{cardDataItem.footerText}}
+            </mat-card-footer>
+        </mat-card>
+    </div>
+</div>

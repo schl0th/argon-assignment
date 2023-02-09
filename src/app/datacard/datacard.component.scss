@@ -1,0 +1,67 @@
+.main-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-rows {
+    display: flex;
+    flex-direction: row;
+
+    &:nth-child(n+2) {
+        margin-top: 16px;
+    }
+}
+
+mat-card {
+    flex: 1;
+
+    &:nth-last-child(n+2) {
+        margin-right: 16px;
+    }
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+
+    & .spacer {
+        flex-grow: 1;
+    }
+}
+
+mat-card-footer {
+    padding: 16px 16px;
+    font-size: 14px;
+    line-height: 1.7;
+
+    & mat-icon {
+        font-size: 14px;
+        height: fit-content;
+        width: fit-content;
+    }
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 13px;
+    line-height: 1;
+}
+
+.card-amount {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.success {
+    color: rgb(45, 206, 137);
+}
+
+.failure {
+    color: rgb(252, 102, 102);
+}

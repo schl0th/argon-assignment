@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Total Traffic",
+        "amount": "350,897",
+        "footerText": "Since last month",
+        "increment": true,
+        "incAmount": 3.48
+    },
+    {
+        "title": "New Users",
+        "amount": "2,356",
+        "footerText": "Since last month",
+        "increment": true,
+        "incAmount": 3.48
+    },
+    {
+        "title": "Sales",
+        "amount": "924",
+        "footerText": "Since last month",
+        "increment": true,
+        "incAmount": 3.48
+    },
+    {
+        "title": "Performance",
+        "amount": "49,65%",
+        "footerText": "Since last month",
+        "increment": true,
+        "incAmount": 3.48
+    },
+    {
+        "title": "Performance",
+        "amount": "49,65%",
+        "footerText": "Since last month",
+        "increment": true,
+        "incAmount": 3.48
+    },
+    {
+        "title": "Performance",
+        "amount": "49,65%",
+        "footerText": "Since last month",
+        "increment": true,
+        "incAmount": 3.48
+    },
+    {
+        "title": "Performance",
+        "amount": "49,65%",
+        "footerText": "Since last month",
+        "increment": true,
+        "incAmount": 3.48
+    },
+    {
+        "title": "Performance",
+        "amount": "49,65%",
+        "footerText": "Since last month",
+        "increment": true,
+        "incAmount": 3.48
+    },
+    {
+        "title": "Performance",
+        "amount": "49,65%",
+        "footerText": "Since last month",
+        "increment": true,
+        "incAmount": 3.48
+    },
+    {
+        "title": "Performance",
+        "amount": "49,65%",
+        "footerText": "Since last month",
+        "increment": false,
+        "incAmount": 3.48
+    }
+]
